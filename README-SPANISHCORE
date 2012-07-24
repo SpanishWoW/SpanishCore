@@ -12,3 +12,4 @@ Parches Metidos:
 - Añadido el fichero revision_SP.h
 - Pequeño fix para arreglar un error en el fichero: mangos_opvp_capture_points.sql
 - Puesto un parche para deslimitar el WHO para que no muestre 50 personas que muestra toda la gente conectada.
+- Añadida un poco de informacion al mangosd.conf.dist.in
