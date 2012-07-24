@@ -10,3 +10,4 @@ Parches Metidos:
 - Fix para spell_hacks para ser aplicable con SQLyog.
 - Añadido un AutoBan por Dupeo de item´s (no mercy hackers).
 - Añadido el fichero revision_SP.h
+- Pequeño fix para arreglar un error en el fichero: mangos_opvp_capture_points.sql
