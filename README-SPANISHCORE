@@ -7,3 +7,4 @@ Parches Metidos:
 - Correciones en las traducciones v2: loc6_esES. Gracias MrBytes.
 - Añadida la carpeta sql_spanishcore para mis parches.
 - Añadias mas traducciones por codigo (Gossip).
+- Fix para spell_hacks para ser aplicable con SQLyog.
