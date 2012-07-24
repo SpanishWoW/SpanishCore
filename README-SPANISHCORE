@@ -9,3 +9,4 @@ Parches Metidos:
 - Añadias mas traducciones por codigo (Gossip).
 - Fix para spell_hacks para ser aplicable con SQLyog.
 - Añadido un AutoBan por Dupeo de item´s (no mercy hackers).
+- Añadido el fichero revision_SP.h
