@@ -8,3 +8,4 @@ Parches Metidos:
 - Añadida la carpeta sql_spanishcore para mis parches.
 - Añadias mas traducciones por codigo (Gossip).
 - Fix para spell_hacks para ser aplicable con SQLyog.
+- Añadido un AutoBan por Dupeo de item´s (no mercy hackers).
