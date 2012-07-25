@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2010-2012 /dev/rsa for MangosR2 <http://github.com/MangosR2>
+ * Copyright (C) 2010-2012 /dev/rsa for MangosR2 <https://github.com/mangosR2>
  * based on gimly && CWN code
  *
  * This program is free software; you can redistribute it and/or modify
