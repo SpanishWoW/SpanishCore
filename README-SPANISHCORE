@@ -1,15 +1,24 @@
-Parches Metidos:
+SpanishWoW README
 
-- Implementada la Armeria.
-- Añadidas traducciones para: loc6_esES y loc7_esMX.
-- Correcciones en las traducciones: loc6_esES y loc7_esMX.
-- Fix para corregir los nombres de algunos items en las traducciones: loc6_esES y loc7_esMX.
-- Correciones en las traducciones v2: loc6_esES. Gracias MrBytes.
-- Añadida la carpeta sql_spanishcore para mis parches.
-- Añadias mas traducciones por codigo (Gossip).
-- Fix para spell_hacks para ser aplicable con SQLyog.
-- Añadido un AutoBan por Dupeo de item´s (no mercy hackers).
-- Añadido el fichero revision_SP.h
-- Pequeño fix para arreglar un error en el fichero: mangos_opvp_capture_points.sql
-- Puesto un parche para deslimitar el WHO para que no muestre 50 personas que muestra toda la gente conectada.
-- Añadida un poco de informacion al mangosd.conf.dist.in
+SpanishWoW es un fuente de codigo abierto MMORPG Framework basado en C++
+apoyado por toda la comunidad. Esto es un derivado de MaNGOS, the Massive
+Network Game Object Server. Ahora mismo nuestro cliente esta soportando la
+version 3.3.5a (12340)
+
+SpanishWoW es un software gratuito. Usted puede redistribuirlo y / o modificar
+bajo los términos de la Licencia Pública General de GNU según lo publicado por
+la Free Software Foundation, ya sea la versión 2 de la Licencia, o
+(a su elección) cualquier versión posterior.
+
+SpanishWoW no es un projecto separado. Es una copia de "MaNGOS project" y
+"ScriptDev2 project" pretendiendo poner a prueba el nuevo código, que por alguna
+razon no se acepto (o no será aceptado) en sus proyectos.
+SpanishWoW intenta tomar lo mejor de MaNGOS, TrinityCore y otros proyectos, mientras que
+tratamos de preservar la coherencia y la simplicidad del código de MaNGOS.
+
+                                                                 
+Copyright (C) 2012-2013 SpanishWoW       <https://github.com/MangosR2/>
+Copyright (C) 2011-2012 MangosR2         <https://github.com/MangosR2/>
+Copyright (C) 2009-2011 /dev/rsa         <https://github.com/rsa/>
+Copyright (C) 2005-2012 MaNGOS project   <http://getmangos.com/>
+Copyright (C) 2006-2012 ScriptDev2       <https://github.com/scriptdev2>
