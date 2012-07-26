@@ -16,7 +16,8 @@ Parches Metidos:
 - Reorganizacion:
 
   - Movidos los cambios en el core a ChangeLog.
-  - Agregada documentacion a README-SPANISCHORE.
+  - Agregada documentacion a README-SPANISHCORE.
 - Arreglado algunos link en el README.
 - Corregidos algunos copyright y añadidos nuestros copyright en los archivos que hemos tocado nosotros.
 - Correciones en los copyright V2.
+- Corregida una palabra del ChangeLog
