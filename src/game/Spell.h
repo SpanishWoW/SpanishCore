@@ -186,6 +186,9 @@ class SpellCastTargets
         float GetElevation() const { return m_elevation; }
         float GetSpeed()     const { return m_speed; }
 
+        void  SetElevation(float elevation) { m_elevation = elevation; }
+        void  SetSpeed(float speed)         { m_speed = speed; }
+
         uint32 m_targetMask;
 
     private:
@@ -374,11 +377,12 @@ class Spell
 
         void EffectFriendSummon(SpellEffectIndex eff_idx);
         void EffectServerSide(SpellEffectIndex eff_idx);
+        void EffectKnockBackFromPosition(SpellEffectIndex eff_idx);
 
         Spell(Unit* caster, SpellEntry const *info, bool triggered, ObjectGuid originalCasterGUID = ObjectGuid(), SpellEntry const* triggeredBy = NULL);
         ~Spell();
 
-        void prepare(SpellCastTargets const* targets, Aura* triggeredByAura = NULL);
+        void prepare(SpellCastTargets const* targets, Aura const* triggeredByAura = NULL);
 
         void cancel(bool force = false);
 
