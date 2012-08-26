@@ -41,11 +41,10 @@
 #include "Creature.h"
 #include "Totem.h"
 #include "CreatureAI.h"
-#include "BattleGroundMgr.h"
-#include "BattleGround.h"
-#include "BattleGroundEY.h"
-#include "BattleGroundWS.h"
-#include "BattleGroundSA.h"
+#include "BattleGround/BattleGroundMgr.h"
+#include "BattleGround/BattleGround.h"
+#include "BattleGround/BattleGroundWS.h"
+#include "BattleGround/BattleGroundEY.h"
 #include "OutdoorPvP/OutdoorPvP.h"
 #include "Language.h"
 #include "SocialMgr.h"
@@ -5908,8 +5907,8 @@ void Spell::EffectOpenLock(SpellEffectIndex eff_idx)
             // Check if object is handled by outdoor pvp
             // GameObject is handling some events related to world battleground events
             if (OutdoorPvP* outdoorPvP = sOutdoorPvPMgr.GetScript(player->GetZoneId()))
-                outdoorPvP->HandleGameObjectUse(player, gameObjTarget);
-                return;
+                if(outdoorPvP->HandleGameObjectUse(player, gameObjTarget))
+                    return;
         }
 
         lockId = goInfo->GetLockId();
